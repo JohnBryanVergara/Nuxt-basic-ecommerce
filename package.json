@@ -7,7 +7,7 @@
         "preview": "nuxt preview",
         "postinstall": "nuxt prepare",
         "commit": "git add . && git commit -m",
-        "push": "git push origin branch1",
+        "push": "git push origin branch2",
         "pull": "git pull origin master"
     },
     "devDependencies": {
