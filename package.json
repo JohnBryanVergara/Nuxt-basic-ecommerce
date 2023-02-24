@@ -7,7 +7,11 @@
         "preview": "nuxt preview",
         "postinstall": "nuxt prepare",
         "commit": "git add . && git commit -m",
+<<<<<<< HEAD
         "push": "git push origin branch1",
+=======
+        "push": "git push origin branch2",
+>>>>>>> 9afd42e20684b5f38298579fb21197d1dc1c7368
         "pull": "git pull origin master"
     },
     "devDependencies": {
