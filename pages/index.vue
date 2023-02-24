@@ -1,5 +1,7 @@
 <template>
-    <h1 class="text-center">Obviously I am working</h1>
+    <Navigation-Bar />
+
+    <Product />
 </template>
 
 <script setup lang="ts"></script>
