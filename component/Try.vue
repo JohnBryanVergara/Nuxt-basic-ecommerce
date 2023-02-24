@@ -1,5 +1,5 @@
 <template>
-    <h1 class="text-center text-trycolor">Obviously, I am working</h1>
+    <div>try</div>
 </template>
 
 <script setup lang="ts"></script>
