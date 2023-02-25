@@ -1,7 +1,8 @@
 <template>
     <div>
-        <h1 class="text-center text-color4">Obviously, I am working</h1>
-        <Bry-Regis/>
+        <Bry-Regis />
+        <br />
+        <Bry-Footer />
     </div>
 </template>
 

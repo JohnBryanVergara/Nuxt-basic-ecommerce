@@ -1,17 +1,21 @@
 <template>
-    <footer class="from-gray-100 to-gray-100 bg-gradient-to-r via-[#bce1ff]">
+    <footer class="bg-color4">
         <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
                 <div>
-                    <img src="#" class="mr-5 h-6 sm:h-9" alt="logo" />
-                    <p class="text-gray-600 mt-4 max-w-xs text-sm">
+                    <img
+                        src="../img/logo.png"
+                        class="mr-5 h-6 rounded-full sm:h-9"
+                        alt="logo"
+                    />
+                    <p class="mt-4 max-w-xs text-sm text-color1">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Voluptas, accusantium.
                     </p>
-                    <div class="text-gray-600 mt-8 flex space-x-6">
+                    <div class="mt-8 flex space-x-6 text-color1">
                         <a
                             class="hover:opacity-75"
-                            href
+                            href="#"
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -31,7 +35,7 @@
                         </a>
                         <a
                             class="hover:opacity-75"
-                            href
+                            href="#"
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -51,7 +55,7 @@
                         </a>
                         <a
                             class="hover:opacity-75"
-                            href
+                            href="#"
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -69,7 +73,7 @@
                         </a>
                         <a
                             class="hover:opacity-75"
-                            href
+                            href="#"
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -87,90 +91,67 @@
                                 />
                             </svg>
                         </a>
-                        <a
-                            class="hover:opacity-75"
-                            href
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <span class="sr-only"> Dribbble </span>
-                            <svg
-                                class="h-6 w-6"
-                                fill="currentColor"
-                                viewBox="0 0 24 24"
-                                aria-hidden="true"
-                            >
-                                <path
-                                    fillRule="evenodd"
-                                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
-                                    clipRule="evenodd"
-                                />
-                            </svg>
-                        </a>
                     </div>
                 </div>
                 <div
                     class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4"
                 >
                     <div>
-                        <p class="font-medium">Company</p>
+                        <p class="font-bold text-color1">Company</p>
                         <nav
-                            class="text-gray-500 mt-4 flex flex-col space-y-2 text-sm"
+                            class="mt-4 flex flex-col space-y-2 text-sm text-color1"
                         >
-                            <a class="hover:opacity-75" href> About </a>
-                            <a class="hover:opacity-75" href> Meet the Team </a>
-                            <a class="hover:opacity-75" href> History </a>
-                            <a class="hover:opacity-75" href> Careers </a>
+                            <a class="hover:opacity-75" href="#"> About </a>
+                            <a class="hover:opacity-75" href="#">
+                                Meet the Team
+                            </a>
+                            <a class="hover:opacity-75" href="#"> History </a>
+                            <a class="hover:opacity-75" href="#"> Careers </a>
                         </nav>
                     </div>
                     <div>
-                        <p class="font-medium">Services</p>
+                        <p class="font-bold text-color1">Services</p>
                         <nav
-                            class="text-gray-500 mt-4 flex flex-col space-y-2 text-sm"
+                            class="mt-4 flex flex-col space-y-2 text-sm text-color1"
                         >
-                            <a class="hover:opacity-75" href> 1on1 Coaching </a>
-                            <a class="hover:opacity-75" href>
-                                Company Review
-                            </a>
-                            <a class="hover:opacity-75" href>
-                                Accounts Review
-                            </a>
-                            <a class="hover:opacity-75" href> HR Consulting </a>
-                            <a class="hover:opacity-75" href>
-                                SEO Optimisation
+                            <a class="hover:opacity-75" href="#"> Store </a>
+                            <a class="hover:opacity-75" href="#"> Shipping </a>
+                        </nav>
+                    </div>
+                    <div>
+                        <p class="font-bold text-color1">Helpful Links</p>
+                        <nav
+                            class="mt-4 flex flex-col space-y-2 text-sm text-color1"
+                        >
+                            <a class="hover:opacity-75" href="#"> Contact </a>
+                            <a class="hover:opacity-75" href="#"> FAQs </a>
+                            <a Live class="hover:opacity-75" href="#"
+                                >Live Chat
                             </a>
                         </nav>
                     </div>
                     <div>
-                        <p class="font-medium">Helpful Links</p>
+                        <p class="font-bold text-color1">Legal</p>
                         <nav
-                            class="text-gray-500 mt-4 flex flex-col space-y-2 text-sm"
+                            class="mt-4 flex flex-col space-y-2 text-sm text-color1"
                         >
-                            <a class="hover:opacity-75" href> Contact </a>
-                            <a class="hover:opacity-75" href> FAQs </a>
-                            <a class="hover:opacity-75" href> Live Chat </a>
-                        </nav>
-                    </div>
-                    <div>
-                        <p class="font-medium">Legal</p>
-                        <nav
-                            class="text-gray-500 mt-4 flex flex-col space-y-2 text-sm"
-                        >
-                            <a class="hover:opacity-75" href>
+                            <a class="hover:opacity-75" href="#">
                                 Privacy Policy
                             </a>
-                            <a class="hover:opacity-75" href>
+                            <a class="hover:opacity-75" href="#">
                                 Terms &amp; Conditions
                             </a>
-                            <a class="hover:opacity-75" href>
+                            <a class="hover:opacity-75" href="#">
                                 Returns Policy
                             </a>
-                            <a class="hover:opacity-75" href> Accessibility </a>
+                            <a class="hover:opacity-75" href="#">
+                                Accessibility
+                            </a>
                         </nav>
                     </div>
                 </div>
             </div>
-            <p class="text-gray-800 mt-8 text-xs">© 2022 Comany Name</p>
+            <p class="mt-8 text-xs text-color1">© 2023 Codev</p>
         </div>
     </footer>
 </template>
