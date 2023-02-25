@@ -1,7 +1,6 @@
 <template>
     <div>
         <Bry-Regis />
-        <br />
         <Bry-Footer />
     </div>
 </template>

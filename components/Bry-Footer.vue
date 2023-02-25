@@ -10,7 +10,7 @@
                     />
                     <p class="mt-4 max-w-xs text-sm text-color1">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Voluptas, accusantium.
+                        Voluptasz, accusantium.
                     </p>
                     <div class="mt-8 flex space-x-6 text-color1">
                         <a

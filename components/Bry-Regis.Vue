@@ -87,6 +87,14 @@
                                 Sign Up
                             </button>
                         </div>
+                        <div class="mt-3 flex items-center justify-center">
+                            <a
+                                class="text-dark text-sm opacity-75 hover:opacity-50"
+                                href="#"
+                            >
+                                Already have an account?
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
