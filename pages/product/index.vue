@@ -6,6 +6,7 @@
                 <GeloProductCard :product="p" />
             </div>
         </div>
+        <Bry-Footer />
     </div>
 </template>
 

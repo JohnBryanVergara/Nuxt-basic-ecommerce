@@ -15,6 +15,11 @@
                     Product Description:
                 </h3>
                 <p>{{ product.description }}</p>
+                <button
+                    class="text-white mt-3 rounded bg-color1 py-2 px-4 font-bold hover:bg-color2"
+                >
+                    Add to Cart
+                </button>
             </div>
         </div>
     </div>
