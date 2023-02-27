@@ -14,7 +14,9 @@
             >
                 <div class="text-white flex-col self-start lg:flex">
                     <img src="" class="mb-3" />
-                    <h1 class="mb-3 text-5xl font-bold">Hi! Welcome Back</h1>
+                    <h1 class="mb-3 text-5xl font-bold">
+                        Welcome to our amazing store
+                    </h1>
                     <p class="pr-3">
                         Lorem ipsum is placeholder text commonly used in the
                         graphic, print, and publishing industries for previewing
@@ -34,7 +36,7 @@
                             Please sign in to your account.
                         </p>
                     </div>
-                    <div class="space-y-5">
+                    <div name="login" class="space-y-5">
                         <div class="space-y-2">
                             <label
                                 class="text-gray-700 text-sm font-medium tracking-wide"
@@ -44,6 +46,9 @@
                                 class="border-gray-300 focus:border-green-400 w-full rounded-lg border px-4 py-2 text-base focus:outline-none"
                                 type=""
                                 placeholder="mail@gmail.com"
+                                name="email"
+                                id="loginEmail"
+                                v-model="email"
                             />
                         </div>
                         <div class="space-y-2">
@@ -54,8 +59,11 @@
                             </label>
                             <input
                                 class="border-gray-300 focus:border-green-400 w-full content-center rounded-lg border px-4 py-2 text-base focus:outline-none"
-                                type=""
+                                type="password"
                                 placeholder="Enter your password"
+                                name="password"
+                                id="loginPass"
+                                v-model="password"
                             />
                         </div>
                         <div class="flex items-center justify-between">
@@ -76,7 +84,7 @@
                             <div class="text-sm">
                                 <a
                                     href="#"
-                                    class="text-green-400 hover:text-green-500"
+                                    class="text -green-400 hover:text-green-500"
                                 >
                                     Forgot your password?
                                 </a>
@@ -85,7 +93,8 @@
                         <div>
                             <button
                                 type="submit"
-                                class="bg-green-400 hover:bg-green-500 text-gray-100 flex w-full cursor-pointer justify-center rounded-full p-3 font-semibold tracking-wide shadow-lg transition duration-500 ease-in"
+                                class="bg-green-400 hover:bg-green-500 text-gray-100 flex w-full cursor-pointer justify-center rounded-full p-3 font-semibold tracking-wide shadow-lg transition duration-500 ease-in hover:opacity-40"
+                                @click="loginUser"
                             >
                                 Sign in
                             </button>
@@ -100,6 +109,32 @@
     </div>
 </template>
 
-<script></script>
+<script setup>
+//Saving user credetials
+//const usersEmail = [];
+//const usersPassword = [];
+//const { data: users } = await useFetch("https://fakestoreapi.com/users");
+//for (let id = 0; id < users._rawValue.length; id++) {
+//    console.log(id);
+//    const { data: user } = await useFetch(
+//      "https://fakestoreapi.com/users/" + id
+//     );
+//    usersEmail.push(user._rawValue.email);
+//    usersPassword.push(user._rawValue.password);
+//}
+const email = ref("");
+const password = ref("");
+const { data: user } = await useFetch("https://fakestoreapi.com/users/1");
+user.mail = user._rawValue.email;
+user.password = user._rawValue.password;
+function loginUser() {
+    if (email.value == user.email || password.value == user.password) {
+        alert("Login Successfully");
+        window.location.replace("/product");
+    } else {
+        alert("Invalid Credentials");
+    }
+}
+</script>
 
 <style scoped></style>
