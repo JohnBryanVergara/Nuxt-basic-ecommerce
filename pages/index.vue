@@ -14,7 +14,9 @@
             >
                 <div class="text-white flex-col self-start lg:flex">
                     <img src="" class="mb-3" />
-                    <h1 class="mb-3 text-5xl font-bold">Hi! Welcome Back</h1>
+                    <h1 class="mb-3 text-5xl font-bold">
+                        Welcome to our amazing store
+                    </h1>
                     <p class="pr-3">
                         Lorem ipsum is placeholder text commonly used in the
                         graphic, print, and publishing industries for previewing

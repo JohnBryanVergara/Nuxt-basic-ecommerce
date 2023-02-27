@@ -30,8 +30,8 @@
                 >
             </li>
             <li class="mr-6">
-                <NuxtLink to="/" class="text-color1 hover:opacity-75"
-                    >Contact</NuxtLink
+                <NuxtLink to="/dashboard" class="text-color1 hover:opacity-75"
+                    >Dashboard</NuxtLink
                 >
             </li>
         </ul>
