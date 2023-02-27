@@ -2,7 +2,7 @@
     <div class="bg-grey-lightest font-sans antialiased">
         <!-- Content -->
         <div class="bg-grey-lightest w-full" style="padding-top: 4rem">
-            <div class="container mx-auto py-8">
+            <form class="container mx-auto py-8">
                 <div
                     class="mx-auto w-5/6 rounded-3xl bg-color3 shadow lg:w-1/2"
                 >
@@ -88,20 +88,21 @@
                             </button>
                         </div>
                         <div class="mt-3 flex items-center justify-center">
-                            <a
+                            <NuxtLink
                                 class="text-dark text-sm opacity-75 hover:opacity-50"
                                 href="#"
+                                to="/"
                             >
                                 Already have an account?
-                            </a>
+                            </NuxtLink>
                         </div>
                     </div>
                 </div>
-            </div>
+            </form>
         </div>
     </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup></script>
 
 <style scoped></style>
